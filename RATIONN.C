@@ -11,7 +11,7 @@ struct ration_card {
     int no_of_family_members;
     int ration_given;
 
-
+  
 };
 
 struct ration_card cards[100];
