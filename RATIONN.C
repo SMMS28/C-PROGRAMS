@@ -18,6 +18,9 @@ struct ration_card cards[100];
 int card_count = 0;
 
 void add_card()
+
+
+
 {
     struct ration_card new_card;
     printf("Enter holder name: ");
