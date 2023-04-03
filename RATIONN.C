@@ -1,4 +1,4 @@
-#include <stdio.h>
+we#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include<time.h>
@@ -60,7 +60,8 @@ void display_ration_status(char* card_number)
             printf("SUGAR     :  05 kgs\n");
             printf("RED GRAM  :  02 kgs\n");
             printf("KEROSINE  :  05 lits\n");
-        } else {
+        } else
+         {
             printf("Ration has not been given for card number %s\n", cards[card_index].card_number);
         }
     }
