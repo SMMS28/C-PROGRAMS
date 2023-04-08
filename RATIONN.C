@@ -5,7 +5,6 @@ we#include <stdio.h>
 struct ration_card {
     char holder_name[50];
     char card_number[20];
-    
     char address[100];
     char city[50];
     char state[50];
