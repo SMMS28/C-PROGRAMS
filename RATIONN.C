@@ -10,8 +10,6 @@ struct ration_card {
     char state[50];
     int no_of_family_members;
     int ration_given;
-
-  
 };
 
 
