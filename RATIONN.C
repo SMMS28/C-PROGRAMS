@@ -14,6 +14,7 @@ struct ration_card {
   
 };
 
+
 struct ration_card cards[100];
 int card_count = 0;
 
