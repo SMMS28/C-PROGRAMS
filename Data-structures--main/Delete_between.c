@@ -28,7 +28,6 @@ struct Node *DeleteBetween(struct Node *ptr,int pos)
     free(q);
     return ptr;
 }
-
 int main()
 {
     struct Node *head;
