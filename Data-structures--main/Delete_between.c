@@ -14,7 +14,6 @@ void Traverse(struct Node*ptr)
         ptr=ptr->next;
     }
 }
-
 struct Node *DeleteBetween(struct Node *ptr,int pos)
 {
     struct Node * p=ptr;
