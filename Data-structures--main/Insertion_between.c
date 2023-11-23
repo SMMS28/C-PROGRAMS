@@ -31,7 +31,6 @@ struct Node *InsertBetween(struct Node *ptr,int data,int pos)
     q->next=p;
     return ptr;
 }
-
 int main()
 {
     struct Node *head;
