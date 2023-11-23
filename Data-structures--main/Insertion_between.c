@@ -15,7 +15,6 @@ void Traverse(struct Node *ptr)
         ptr=ptr->next;
     }
 }
-
 struct Node *InsertBetween(struct Node *ptr,int data,int pos)
 {
     struct Node *q;
