@@ -6,7 +6,6 @@ struct Node
     int data;
     struct Node *next;
 };
-
 void Traverse(struct Node *ptr)
 {
     while(ptr!=NULL)
