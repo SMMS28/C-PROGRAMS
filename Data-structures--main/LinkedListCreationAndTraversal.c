@@ -15,7 +15,6 @@ void Traversal(struct Node *ptr)
         ptr=ptr->next;
     }
 }
-
 int main()
 {
     struct Node *head;
