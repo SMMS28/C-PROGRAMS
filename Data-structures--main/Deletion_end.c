@@ -16,7 +16,6 @@ void Traverse(struct Node *ptr)
         ptr=ptr->next;
     }
 }
-
 struct Node *DeleteEnd(struct Node *ptr)
 {
     struct Node *p=ptr;
