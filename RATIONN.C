@@ -33,7 +33,6 @@ void add_card()
     cards[card_count++] = new_card;
     printf("Ration card added successfully!\n");
 }
-
 void display_ration_status(char* card_number)
 {
     int card_index = -1;
