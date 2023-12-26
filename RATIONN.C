@@ -20,7 +20,6 @@ void add_card()
     scanf("%s", new_card.holder_name);
     printf("Enter card number: ");
     scanf("%s", new_card.card_number);
-
     printf("Enter address: ");
     scanf("%s", new_card.address);
     printf("Enter city: ");
