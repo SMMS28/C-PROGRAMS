@@ -6,7 +6,6 @@ struct Node   //defining the structure to define the nodes
     int data;    //data variable of the node 
     struct Node *next;  //pointer to parse through the nodes 
 };
-
 void Traverse(struct Node *ptr)  //method to parse through nodes 
 {
     while (ptr!=NULL)
