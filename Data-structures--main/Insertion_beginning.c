@@ -15,7 +15,6 @@ void Traverse(struct Node *ptr)  //method to parse through nodes
     }
     
 }
-
 struct Node *InsertBeg(struct Node *ptr,int data)   //method to insert nodes in begining 
 {
     struct Node *p;
