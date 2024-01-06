@@ -12,8 +12,7 @@ void Traverse(struct Node *ptr)  //method to parse through nodes
     {
         printf("Element: %d \n",ptr->data);
         ptr=ptr->next;
-    }
-    
+    }  
 }
 struct Node *InsertBeg(struct Node *ptr,int data)   //method to insert nodes in begining 
 {
