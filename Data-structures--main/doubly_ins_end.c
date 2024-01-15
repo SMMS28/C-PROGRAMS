@@ -15,7 +15,6 @@ void Traverse(struct Node*ptr)
         p=p->next;
     }
 }
-
 struct Node *InsEnd(struct Node *ptr,int data)
 {
     struct Node *q=ptr;
