@@ -11,7 +11,7 @@ void Traverse(struct Node*ptr)
     struct Node*p=ptr;
     while(p!=NULL)
     {
-        printf("Element: %d\n",p->data);
+    printf("Element: %d\n",p->data);
         p=p->next;
     }
 }
