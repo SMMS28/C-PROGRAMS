@@ -6,7 +6,6 @@ struct Node
     struct Node * prev;
     struct Node *next;
 };
-
 void Traverse(struct Node*ptr)
 {
     struct Node*p=ptr;
