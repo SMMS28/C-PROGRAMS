@@ -39,7 +39,7 @@ void display_ration_status(char* card_number)
     for(int i = 0; i < card_count; i++) {
         if(strcmp(cards[i].card_number, card_number) == 0) {
             card_index = i;
-            break;
+        break;
         }
     }
     if(card_index == -1) {
