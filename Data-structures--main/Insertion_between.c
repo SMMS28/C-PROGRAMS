@@ -9,7 +9,7 @@ int data;
 void Traverse(struct Node *ptr)
 {
     while(ptr!=NULL)
-    {
+   {
         printf("The element: %d\n",ptr->data);
         ptr=ptr->next;
     }
