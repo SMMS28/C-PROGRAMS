@@ -3,7 +3,7 @@
 
 struct Node 
 {
-    int data;
+int data;
     struct Node *next;
 };
 void Traverse(struct Node *ptr)
