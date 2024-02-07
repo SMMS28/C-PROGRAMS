@@ -8,6 +8,7 @@ struct ration_card {
     char address[100];
     char city[50];
     char state[50];
+
 int no_of_family_members;
      int ration_given;
 };
